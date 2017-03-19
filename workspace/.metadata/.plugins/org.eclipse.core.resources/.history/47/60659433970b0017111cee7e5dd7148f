@@ -1,0 +1,13 @@
+package exercise;
+
+public class Exf11_1_2_ChoHan {
+	public void printChoHan(){
+		double rand = Math.random();
+		if(rand >= 0.5){
+			System.out.println("íö(0.5à»è„");
+		}
+		else{
+			System.out.println("îº(0.5ñ¢ñû");
+		}
+	}
+}

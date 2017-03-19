@@ -1,0 +1,13 @@
+package exercise;
+
+import sample.Calc;
+
+public class Ex11_3_2 {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		double average = Calc.ave(10.5, 15.0, 20.2, 31.3, 8.9);
+		System.out.printf("平均 = ", average);
+	}
+
+}
