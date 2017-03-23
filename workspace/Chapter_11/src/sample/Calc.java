@@ -25,7 +25,7 @@ public class Calc {
 	}
 	
 	public static double max(double... data){
-		double maxValue = 0;
+		//double maxValue = 0;
 		Arrays.sort(data);
 		return data[data.length - 1];
 	}
